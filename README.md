@@ -89,7 +89,7 @@ I start up a MongoDB server in the command prompt by copying and pasting the fol
 
       "C:\Program Files\MongoDB\Server\7.0\bin\mongod.exe" --dbpath="c:\data\db"
 
-Then I need to have another cmd prompt to start up a MongoDB shell. In my version, there was no mongo.exe and so I needed to download the mongosh.exe from the net. 
+Then I need to have another cmd prompt to start up a MongoDB shell. In my version, there was no mongo.exe and so I needed to download the 'mongosh-1.10.6-win32-x64' from the net that contains mongosh.exe. I need to copy and paste the following in the cmd prompt: 
 
       "D:\0_Machine_Learning\Software -- ML Journey\22. MongoDB\mongosh-1.10.6-win32-x64\bin\mongosh.exe"
    
