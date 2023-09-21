@@ -77,3 +77,7 @@ Four primary database operations that every database programmer uses to interact
 
 <a name="8"></a>
 ##  Getting started with databases - Practical
+
+I start up a MongoDB server in the command prompt via copy and paste the following command, and hit enter:
+
+      "C:\Program Files\MongoDB\Server\4.0\bin\mongod.exe" --dbpath="c:\data\db"
