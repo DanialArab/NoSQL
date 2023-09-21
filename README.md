@@ -12,6 +12,7 @@ Reference: <a href="https://www.udemy.com/course/introduction-to-mongodb/?utm_so
       5. [CRUD](#7)
 2. [Getting started with databases - Practical](#8)
    1. [Starting a MongoDB server and shelll](#9)
+   2. [Creating a database/collection](#10)
 
 <a name="1"></a>
 ## Introduction
@@ -90,3 +91,5 @@ I start up a MongoDB server in the command prompt by copying and pasting the fol
 
 Then I need to have another cmd prompt to start up a MongoDB shell. In my version, there was no mongo.exe and so I needed to download the mongosh.exe from the net. 
 
+<a name="10"></a>
+### Creating a database/collection
