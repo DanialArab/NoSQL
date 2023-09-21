@@ -80,4 +80,7 @@ Four primary database operations that every database programmer uses to interact
 
 I start up a MongoDB server in the command prompt via copy and paste the following command, and hit enter:
 
-      "C:\Program Files\MongoDB\Server\4.0\bin\mongod.exe" --dbpath="c:\data\db"
+      "C:\Program Files\MongoDB\Server\7.0\bin\mongod.exe" --dbpath="c:\data\db"
+
+In my version, there was no mongo.exe and so I needed to download the mongosh.exe from net. 
+
