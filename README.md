@@ -11,6 +11,7 @@ Reference: <a href="https://www.udemy.com/course/introduction-to-mongodb/?utm_so
       4. [Vertical vs. Horizontal scaling](#6)
       5. [CRUD](#7)
 2. [Getting started with databases - Practical](#8)
+   1. [Starting a MongoDB server and shelll](#9)
 
 <a name="1"></a>
 ## Introduction
@@ -78,9 +79,14 @@ Four primary database operations that every database programmer uses to interact
 <a name="8"></a>
 ##  Getting started with databases - Practical
 
-I start up a MongoDB server in the command prompt via copy and paste the following command, and hit enter:
+<a name="9"></a>
+### Starting a MongoDB server and shell
+
+First I need to start up a MongoDB server and shell:
+
+I start up a MongoDB server in the command prompt by copying and pasting the following command:
 
       "C:\Program Files\MongoDB\Server\7.0\bin\mongod.exe" --dbpath="c:\data\db"
 
-Then I need to have another cmd prompt to start up a mongo shell. In my version, there was no mongo.exe and so I needed to download the mongosh.exe from net. 
+Then I need to have another cmd prompt to start up a MongoDB shell. In my version, there was no mongo.exe and so I needed to download the mongosh.exe from the net. 
 
