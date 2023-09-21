@@ -5,6 +5,9 @@ Reference: <a href="https://www.udemy.com/course/introduction-to-mongodb/?utm_so
 
 1. [Introduction](#1)
    1. [SQL vs. NoSQL](#2)
+      1. [Schema](#3)
+      2. [Flexibility](#4)
+      3. 
       1. [Vertical vs. Horizontal scaling](#3)
 3. 
 
