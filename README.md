@@ -10,7 +10,7 @@ Reference: <a href="https://www.udemy.com/course/introduction-to-mongodb/?utm_so
       3. [Transactional systems](#5)
       4. [Vertical vs. Horizontal scaling](#6)
       5. [CRUD](#7)
-3. 
+2. [Getting started with databases - Practical](#8)
 
 <a name="1"></a>
 ## Introduction
@@ -73,4 +73,7 @@ Four primary database operations that every database programmer uses to interact
       READ: db.collection.find({'age': 24}) 
       UPDATE db.collection.update({'country': 'US'}, {'country': 'USA'}) 
       DELETE: db.collection.remove({'user_id', 1024})
-  
+
+
+<a name="8"></a>
+##  Getting started with databases - Practical
