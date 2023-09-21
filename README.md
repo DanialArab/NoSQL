@@ -7,7 +7,7 @@ Reference: <a href="https://www.udemy.com/course/introduction-to-mongodb/?utm_so
 
 NoSQL = Not only SQL
 
-![](https://github.com/DanialArab/images/blob/main/NoSQL/sql%20vs%20nosql%201.PNG)
+![](https://github.com/DanialArab/images/blob/main/NoSQL/sql%20vs%20nosql%200.PNG)
 
 ![](https://github.com/DanialArab/images/blob/main/NoSQL/sql%20vs%20nosql%202.PNG)
 
