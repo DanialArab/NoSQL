@@ -13,6 +13,7 @@ Reference: <a href="https://www.udemy.com/course/introduction-to-mongodb/?utm_so
 2. [Getting started with databases - Practical](#8)
    1. [Starting a MongoDB server and shelll](#9)
    2. [Creating a database/collection](#10)
+   3. [Inserting documents (adding data to the collections)](#11)
 
 <a name="1"></a>
 ## Introduction
@@ -142,3 +143,7 @@ returns back
       test> show collections
       users
 
+<a name="11"></a>
+### Inserting documents (adding data to the collections)
+
+here 
