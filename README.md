@@ -51,8 +51,8 @@ Four primary database operations that every database programmer uses to interact
 + Update is when you modify records that already exist in the database and
 + delete is when you remove records from the database
 
-   CREATE: db.collection.insert({'name' : 'Danial'})
-   READ: db.collection.find({'age': 24}) 
-   UPDATE db.collection.update({'country': 'US'}, {'country': 'USA'}) 
-   DELETE: db.collection.remove({'user_id', 1024})
+      CREATE: db.collection.insert({'name' : 'Danial'})
+      READ: db.collection.find({'age': 24}) 
+      UPDATE db.collection.update({'country': 'US'}, {'country': 'USA'}) 
+      DELETE: db.collection.remove({'user_id', 1024})
   
