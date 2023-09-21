@@ -120,3 +120,25 @@ Also, the same command can be used to switch between the existing databases like
 #### collection
 
 In MongoDB, within a database there are collections and **a collection is essentially a group of data kind of similar to a table in SQL.**
+
+To create a collection we use a createCollection method:
+
+      db.createCollection('name_of_my_collection') 
+
+like
+
+      test> db.createCollection('users')
+
+returns back 
+
+      { ok: 1 }
+
+meaning the collection creation was successful. We can validate it through
+
+      show collections
+
+returns back
+
+      test> show collections
+      users
+
