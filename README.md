@@ -96,6 +96,17 @@ Then I need to have another cmd prompt to start up a MongoDB shell. In my versio
 <a name="10"></a>
 ### Creating a database/collection
 
+to see the databases
+
+      show dbs
+
+returns
+
+      admin    40.00 KiB
+      config  108.00 KiB
+      local    72.00 KiB
+
+      
 to create a database named test and switch to it:
 
       use test
