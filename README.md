@@ -95,3 +95,8 @@ Then I need to have another cmd prompt to start up a MongoDB shell. In my versio
    
 <a name="10"></a>
 ### Creating a database/collection
+
+to create a database named test and switch to it:
+
+      use test
+      
