@@ -117,3 +117,6 @@ Also, the same command can be used to switch between the existing databases like
 
       use admin
 
+#### collection
+
+In MongoDB, within a database there are collections and **a collection is essentially a group of data kind of similar to a table in SQL.**
