@@ -5,7 +5,7 @@ Reference: <a href="https://www.udemy.com/course/introduction-to-mongodb/?utm_so
 
 1. [Introduction](#1)
    1. [SQL vs. NoSQL](#2)
-   2. [Vertical vs. Horizontal scaling](#3)
+      1. [Vertical vs. Horizontal scaling](#3)
 3. 
 
 <a name="1"></a>
