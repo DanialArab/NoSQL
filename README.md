@@ -42,4 +42,12 @@ NoSQL = Not only SQL
 + Generally speaking, sequel databases can scale vertically but are more difficult to scale horizontally while no sequel databases are generally much easier to scale horizontally.
 + It's generally **more expensive to upgrade the hardware on a single server than it would be to just add more and more low-cost servers every time you need to scale**, which makes **horizontal scaling, in general, a more cost-effective and advantageous approach** if it works for the data structures that we are using. This plays into why MongoDB and other no sequel databases are becoming **very popular for handling big data and large-scale database needs**.
 + In NoSQL, we have the posts and comments in a single document grouped together allowing us to access them in one serve, while in SQL database, we may have our tables like posts and comments tables in various servers. And if that were the case we would need to make network requests between those servers when pulling a blog post and its comments at the same time. And this is much less efficient than pulling a single document from a single server where you don't need to communicate between servers for the same operation. You can get it all from one place. And in addition to being less efficient, it also can cause other problems and complications.
-+ 
+
+**CRUD = CREATE READ UPDATE DELETE**
+
+Four primary database operations that every database programmer uses to interact with the database.
++ create is when you insert one or more records into your database
++ read is when you pull records from the database either to display in a user interface for analysts or to poll to display on a web page or something like that.
++ Update is when you modify records that already exist in the database and
++ delete is when you remove records from the database.
+
