@@ -100,3 +100,9 @@ to create a database named test and switch to it:
 
       use test
       
+so the database test is the active database meaning the one that we are using right now. 
+
+Also, the same command can be used to switch between the existing databases like 
+
+      use admin
+
