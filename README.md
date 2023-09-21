@@ -49,7 +49,7 @@ Four primary database operations that every database programmer uses to interact
 + create is when you insert one or more records into your database
 + read is when you pull records from the database either to display in a user interface for analysts or to poll to display on a web page or something like that.
 + Update is when you modify records that already exist in the database and
-+ delete is when you remove records from the database.
++ delete is when you remove records from the database
 
    CREATE: db.collection.insert({'name' : 'Danial'})
    READ: db.collection.find({'age': 24}) 
