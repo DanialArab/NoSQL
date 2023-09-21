@@ -4,10 +4,15 @@ Reference: <a href="https://www.udemy.com/course/introduction-to-mongodb/?utm_so
 ">Introduction to MongoDB for Data Analytics  </a>
 
 1. [Introduction](#1)
-2. 
+   1. [SQL vs. NoSQL](#2)
+   2. [Vertical vs. Horizontal scaling](#3)
+3. 
 
 <a name="1"></a>
 ## Introduction
+
+<a name="2"></a>
+### SQL vs. NoSQL
 
 NoSQL = Not only SQL
 
@@ -24,3 +29,8 @@ NoSQL = Not only SQL
 ![](https://github.com/DanialArab/images/blob/main/NoSQL/sql.PNG)
 
 ![](https://github.com/DanialArab/images/blob/main/NoSQL/nosql.PNG)
+
+<a name="3"></a>
+### Vertical vs. Horizontal scaling
+
+
