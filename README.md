@@ -34,3 +34,4 @@ NoSQL = Not only SQL
 ### Vertical vs. Horizontal scaling
 
 
+here
