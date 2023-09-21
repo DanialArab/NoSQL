@@ -33,5 +33,7 @@ NoSQL = Not only SQL
 <a name="3"></a>
 ### Vertical vs. Horizontal scaling
 
+![](https://github.com/DanialArab/images/blob/main/NoSQL/sql%20vs%20nosql%203.PNG)
+
 
 here
