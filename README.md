@@ -347,6 +347,8 @@ We should think about which one might be more beneficial. And the answer really 
 
 MongoDB Compass is a **graphical user interface (GUI) for MongoDB**, designed to help developers and database administrators interact with MongoDB databases more easily. It provides a visual way to explore and manipulate data, manage databases, and perform various tasks related to MongoDB. We're going to install a tool called MongoDB compass that's going to help us visualize data more effectively and we'll actually not require us to continue using the shell. And while I thought it was a really good learning opportunity to execute commands in the shell and work with the raw data format of MongoDB going forward as we deal with designing databases and analyzing data it's gonna be really helpful to visualize our data in a more efficient way. And that's something that MongoDB compass is going to help us do. 
 
+**We need to have MongoDB server running to be able to make the operations in Compass.**
+
 My test database and users collection in MongoDB Compass:
 
 ![](https://github.com/DanialArab/images/blob/main/NoSQL/compass.PNG)
