@@ -243,3 +243,9 @@ So in MongoDB whenever a new document is created this **_id** key is automatical
 
 The default value for _id is an object id data type which is a special data type in MongoDB. That's not any of the ones that we have gone over so far like string integer float or boolean and inside this data type there is this long hexadecimal string that is always unique for each document in a collection and this is built into the structure of MongoDB to ensure that each document has this _id key that it has a no null value or a non-missing value and that all documents within the same collection will have a unique value for this _id property.
 
+Even though each document will have this _id primary key and that will always be unique for each document by default it's often beneficial to define another unique identifier for records in a collection:
+
+![](https://github.com/DanialArab/images/blob/main/NoSQL/pkey2.PNG)
+
+It's more human readable and also an integer as a data type. Here for this unique identifier can sometimes be easier to work with in your programs and analysis than this object I.D. that Mongo uses. And also you might want to have an I.D. that increases sequentially each time a new record is added. While Mongo D.B. enforces uniqueness on this underscore I.D. key by default you could also build it into the structure of your database to enforce uniqueness on this user I.D. key as well. Or a developer could potentially build this in at the application level. So for example when a new user creates an account a unique I.D. would have been chosen for that user before anything even gets into the database.
+
