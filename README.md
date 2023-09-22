@@ -425,3 +425,6 @@ So to get started with that you can go to your terminal and if you've been follo
       	}
       
       ])
+
+When building or designing a database we need to ask: how can I structure it so that for the particular analysis that I'm making I will be able to get all of the information I need with the smallest number of queries possible without loading data that's unnecessary for my given use case.
+
