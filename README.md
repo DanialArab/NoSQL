@@ -23,6 +23,10 @@ Reference: <a href="https://www.udemy.com/course/introduction-to-mongodb/?utm_so
    3. [Embeded documents](#18)
    4. [Embeded documents vs. separate collections](#19)
 4. [Database design - practical](#20)
+5. [Data analysis - intuition](#21)
+
+
+
 <a name="1"></a>
 ## Introduction
 
@@ -431,4 +435,7 @@ Creating an embedded document in Compass:
 ![](https://github.com/DanialArab/images/blob/main/NoSQL/embedded%20duc%202.PNG)
 
 When building or designing a database we need to ask: how can I structure it so that for the particular analysis that I'm making I will be able to get all of the information I need with the smallest number of queries possible without loading data that's unnecessary for my given use case.
+
+<a name="21"></a>
+## Data analysis - intuition
 
