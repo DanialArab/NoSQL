@@ -17,6 +17,7 @@ Reference: <a href="https://www.udemy.com/course/introduction-to-mongodb/?utm_so
    4. [Intro to queries using find](#12) 
 3. [Database design - intuition](#15)
    1. [Primary keys](#16)
+   2. [Establishing relationships in data](#17)
 <a name="1"></a>
 ## Introduction
 
@@ -248,4 +249,7 @@ Even though each document will have this _id primary key and that will always be
 ![](https://github.com/DanialArab/images/blob/main/NoSQL/pkey2.PNG)
 
 It's more human readable and also an integer as a data type. Here for this unique identifier can sometimes be easier to work with in your programs and analysis than this object I.D. that Mongo uses. And also you might want to have an I.D. that increases sequentially each time a new record is added. While Mongo D.B. enforces uniqueness on this underscore I.D. key by default you could also build it into the structure of your database to enforce uniqueness on this user I.D. key as well. Or a developer could potentially build this in at the application level. So for example when a new user creates an account a unique I.D. would have been chosen for that user before anything even gets into the database.
+
+<a name="17"></a>
+### Establishing relationships in data
 
