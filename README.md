@@ -146,4 +146,22 @@ returns back
 <a name="11"></a>
 ### Inserting documents (adding data to the collections)
 
-here 
+
+      test> db.users.insert({'name': 'James'})
+      {
+        acknowledged: true,
+        insertedIds: { '0': ObjectId("650db967e0557b6b3a8824a1") }
+      }
+      test> db.users.find()
+      [ { _id: ObjectId("650db967e0557b6b3a8824a1"), name: 'James' } ]
+      test> db.users.insert({'name': 'Julia', 'age': 24})
+      {
+        acknowledged: true,
+        insertedIds: { '0': ObjectId("650db98de0557b6b3a8824a2") }
+      }
+      test> db.users.find()
+      [
+        { _id: ObjectId("650db967e0557b6b3a8824a1"), name: 'James' },
+        { _id: ObjectId("650db98de0557b6b3a8824a2"), name: 'Julia', age: 24 }
+      ]
+
