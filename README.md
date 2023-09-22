@@ -15,7 +15,8 @@ Reference: <a href="https://www.udemy.com/course/introduction-to-mongodb/?utm_so
    2. [Creating a database/collection](#10)
    3. [Inserting documents (adding data to the collections)](#11)
    4. [Intro to queries using find](#12) 
-
+3. [Database design - intuition](#15)
+   1. [Primary keys](#16)
 <a name="1"></a>
 ## Introduction
 
@@ -224,3 +225,12 @@ for less than a value (lt means less than in below):
       ]
 
       
+
+<a name="15"></a>
+## Database design - intuition
+  
+<a name="16"></a>
+### Primary keys](#16)
+
+Primary keys have a larger role in sequel databases than they do in no sequel. But they still do make an appearance in MongoDB. 
+
