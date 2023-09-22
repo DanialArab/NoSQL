@@ -216,7 +216,7 @@ To grab users who were all a certain age or older (gt below means greater than):
         { _id: ObjectId("650dbbe4e0557b6b3a8824a5"), name: 'Mo', age: 36 }
       ]
 
-for less than of a value:
+for less than a value (lt means less than in below):
 
       test> db.users.find({"age": {$lt: 30}})
       [
