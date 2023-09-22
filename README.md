@@ -338,3 +338,6 @@ Each of our blog posts no longer has the default underscore I.D. key or the Post
 
 <a name="19"></a>
 ### Embedded documents vs. separate collections
+
+We should think about which one might be more beneficial. And the answer really depends on the particular use case but in general for each situation in which you are reading data from your database so in which your data is being accessed either to display on a Web site for users or to be pulled in queries for analysis in each one of those situations your goals should be to **minimize the amount of data that is unnecessarily loaded and to access all of the data that you will need in one single query ideally or in the minimum number of queries possible.**
+
