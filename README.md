@@ -230,7 +230,7 @@ for less than a value (lt means less than in below):
 ## Database design - intuition
   
 <a name="16"></a>
-### Primary keys](#16)
+### Primary keys
 
 Primary keys have a larger role in sequel databases than they do in no sequel. But they still do make an appearance in MongoDB. 
 
@@ -241,4 +241,5 @@ So in MongoDB whenever a new document is created this **_id** key is automatical
 
 ![](https://github.com/DanialArab/images/blob/main/NoSQL/pkey.PNG) 
 
+The default value for _id is an object id data type which is a special data type in MongoDB. That's not any of the ones that we have gone over so far like string integer float or boolean and inside this data type there is this long hexadecimal string that is always unique for each document in a collection and this is built into the structure of MongoDB to ensure that each document has this _id key that it has a no null value or a non-missing value and that all documents within the same collection will have a unique value for this _id property.
 
