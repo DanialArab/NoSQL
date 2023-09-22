@@ -230,6 +230,29 @@ for less than a value (lt means less than in below):
 <a name="13"></a>
 ### Updating documents
 
+      test> db.users.update({'name': 'James'}, {$set: {'name': 'James', 'age': 22}})
+      {
+        acknowledged: true,
+        insertedId: null,
+        matchedCount: 1,
+        modifiedCount: 0,
+        upsertedCount: 0
+      }
+
+      test> db.users.find( )
+      [
+        { _id: ObjectId("650db967e0557b6b3a8824a1"), name: 'James', age: 22 },
+        { _id: ObjectId("650db98de0557b6b3a8824a2"), name: 'Julia', age: 24 },
+        {
+          _id: ObjectId("650dba44e0557b6b3a8824a3"),
+          name: 'Daniel',
+          age: 28
+        },
+        { _id: ObjectId("650dba63e0557b6b3a8824a4"), name: 'Jim', age: 36 },
+        { _id: ObjectId("650dbbe4e0557b6b3a8824a5"), name: 'Mo', age: 36 }
+      ]
+
+
 
 <a name="14"></a>
 ### Deleting documents
