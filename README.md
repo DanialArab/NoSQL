@@ -351,4 +351,6 @@ My test database and users collection in MongoDB Compass:
 
 ![](https://github.com/DanialArab/images/blob/main/NoSQL/compass.PNG)
 
-Compass allows us to perform CRUD using the GUI. 
++ Compass allows us to perform CRUD using the GUI.
++ So if we hover over a document and then over to the right hand side and click on **clone document** that will open up the user record and we can just change the values rather than having to type out each key over again we can just change the values to represent our new user.
++ 
