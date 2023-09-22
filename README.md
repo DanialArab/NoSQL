@@ -234,3 +234,11 @@ for less than a value (lt means less than in below):
 
 Primary keys have a larger role in sequel databases than they do in no sequel. But they still do make an appearance in MongoDB. 
 
++ They are unique for all documents in a collection
++ cannot have null values
+
+So in MongoDB whenever a new document is created this **_id** key is automatically added to it:
+
+![](https://github.com/DanialArab/images/blob/main/NoSQL/pkey.PNG) 
+
+
