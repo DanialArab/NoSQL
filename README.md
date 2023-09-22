@@ -20,6 +20,8 @@ Reference: <a href="https://www.udemy.com/course/introduction-to-mongodb/?utm_so
 3. [Database design - intuition](#15)
    1. [Primary keys](#16)
    2. [Establishing relationships in data](#17)
+   3. [Embeded documents](#18)
+   4. [Embeded documents vs. separate collections](#19)
 <a name="1"></a>
 ## Introduction
 
@@ -313,4 +315,17 @@ It's more human readable and also an integer as a data type. Here for this uniqu
 <a name="17"></a>
 ### Establishing relationships in data
 
-here
+**Even though MongoDB and no SQL databases are known as non-relational databases it can still be beneficial to establish relationships between different documents and different collections.**:
+
+![](https://github.com/DanialArab/images/blob/main/NoSQL/relationships%20in%20data.PNG)
+
+
+
+
+
+
+<a name="18"></a>
+### Embedded documents
+
+<a name="19"></a>
+### Embedded documents vs. separate collections
