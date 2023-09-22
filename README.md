@@ -165,9 +165,36 @@ returns back
 <a name="12"></a>
 ### Intro to queries using find
 
- test> db.users.find()
+      test> db.users.find()
       [
-         { _id: ObjectId("650db967e0557b6b3a8824a1"), name: 'James' },
-         { _id: ObjectId("650db98de0557b6b3a8824a2"), name: 'Julia', age: 24 }
+        { _id: ObjectId("650db967e0557b6b3a8824a1"), name: 'James' },
+        { _id: ObjectId("650db98de0557b6b3a8824a2"), name: 'Julia', age: 24 },
+        {
+          _id: ObjectId("650dba44e0557b6b3a8824a3"),
+          name: 'Daniel',
+          age: 28
+        },
+        { _id: ObjectId("650dba63e0557b6b3a8824a4"), name: 'Jim', age: 36 }
       ]
-Now you might notice that there is this additional key value pair over here called underscore I.D. and then we have this object I.D. and then a string of characters here.
+ 
+There is this additional key-value pair over here called **_id** and then we have this object id and then a string of characters, this is something that **MongoDB adds to every document you insert into a collection by default. And the reason that it does this is so that every document will have some unique key or a key that has a value that is unique to that document.** So let's say for example if we had created two users with the same name like two users with the name of James this object id would be something that we could use to uniquely identify this document even if all of the other key-value pairs were identical to another document for example.
+
+      test> db.users.find({'name': 'Jim'})
+      [
+        { _id: ObjectId("650dba63e0557b6b3a8824a4"), name: 'Jim', age: 36 }
+      ]
+
+or
+
+      test> db.users.insert({'name': 'Mo', 'age': 36})
+      {
+        acknowledged: true,
+        insertedIds: { '0': ObjectId("650dbbe4e0557b6b3a8824a5") }
+      }
+      test> db.users.find({'age': 36})
+      [
+        { _id: ObjectId("650dba63e0557b6b3a8824a4"), name: 'Jim', age: 36 },
+        { _id: ObjectId("650dbbe4e0557b6b3a8824a5"), name: 'Mo', age: 36 }
+      ]
+
+here 
