@@ -197,4 +197,22 @@ or
         { _id: ObjectId("650dbbe4e0557b6b3a8824a5"), name: 'Mo', age: 36 }
       ]
 
-here 
+To query for fields that have missing values:
+
+      test> db.users.find({"age": null})
+      [ { _id: ObjectId("650db967e0557b6b3a8824a1"), name: 'James' } ]
+
+To grab users who were all a certain age or older (gt below means greater than):
+
+      test> db.users.find({"age": {$gt: 22}})
+      [
+        { _id: ObjectId("650db98de0557b6b3a8824a2"), name: 'Julia', age: 24 },
+        {
+          _id: ObjectId("650dba44e0557b6b3a8824a3"),
+          name: 'Daniel',
+          age: 28
+        },
+        { _id: ObjectId("650dba63e0557b6b3a8824a4"), name: 'Jim', age: 36 },
+        { _id: ObjectId("650dbbe4e0557b6b3a8824a5"), name: 'Mo', age: 36 }
+      ]
+
