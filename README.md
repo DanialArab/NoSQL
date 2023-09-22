@@ -334,6 +334,7 @@ Embedded documents can be a particularly helpful way to establish a one-to-many 
 
 ![](https://github.com/DanialArab/images/blob/main/NoSQL/embedded%20doc.PNG)
 
+Each of our blog posts no longer has the default underscore I.D. key or the Post's I.D. key. And we actually don't need these anymore, when we're using embedded documents because for the posts key we have a list (which is, of course, zero-indexed) as values. So even though each post doesn't have a primary key within this embedded document it corresponds to a unique index in the Post's array. So we can still uniquely identify each post for a given user. 
 
 <a name="19"></a>
 ### Embedded documents vs. separate collections
