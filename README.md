@@ -14,7 +14,9 @@ Reference: <a href="https://www.udemy.com/course/introduction-to-mongodb/?utm_so
    1. [Starting a MongoDB server and shelll](#9)
    2. [Creating a database/collection](#10)
    3. [Inserting documents (adding data to the collections)](#11)
-   4. [Intro to queries using find](#12) 
+   4. [Intro to queries using find](#12)
+   5. [Updating documents](#13)
+   6. [Deleting documents](#14)
 3. [Database design - intuition](#15)
    1. [Primary keys](#16)
    2. [Establishing relationships in data](#17)
@@ -225,7 +227,14 @@ for less than a value (lt means less than in below):
         { _id: ObjectId("650db98de0557b6b3a8824a2"), name: 'Julia', age: 24 }
       ]
 
-      
+<a name="13"></a>
+### Updating documents
+
+
+<a name="14"></a>
+### Deleting documents
+
+
 
 <a name="15"></a>
 ## Database design - intuition
