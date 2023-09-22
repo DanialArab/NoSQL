@@ -327,11 +327,13 @@ A one-to-one relationship is where each document relates to exactly one other do
 
 "![](https://github.com/DanialArab/images/blob/main/NoSQL/many%20to%20many.PNG)
 
-
-
-
 <a name="18"></a>
 ### Embedded documents
+
+Embedded documents can be a particularly helpful way to establish a one-to-many relationship in MongoDB. 
+
+![](https://github.com/DanialArab/images/blob/main/NoSQL/embedded%20doc.PNG)
+
 
 <a name="19"></a>
 ### Embedded documents vs. separate collections
