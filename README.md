@@ -325,6 +325,8 @@ A one-to-one relationship is where each document relates to exactly one other do
 
 ![](https://github.com/DanialArab/images/blob/main/NoSQL/one%20to%20many.PNG)
 
+"![](https://github.com/DanialArab/images/blob/main/NoSQL/many%20to%20many.PNG)
+
 
 
 
