@@ -350,3 +350,5 @@ MongoDB Compass is a **graphical user interface (GUI) for MongoDB**, designed to
 My test database and users collection in MongoDB Compass:
 
 ![](https://github.com/DanialArab/images/blob/main/NoSQL/compass.PNG)
+
+Compass allows us to perform CRUD using the GUI. 
