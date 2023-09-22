@@ -355,7 +355,9 @@ My test database and users collection in MongoDB Compass:
 
 + Compass allows us to perform CRUD using the GUI.
 + So if we hover over a document and then over to the right hand side and click on **clone document** that will open up the user record and we can just change the values rather than having to type out each key over again we can just change the values to represent our new user.
-+ Rather than working with GUI in Compass, we add the posts using the Mongo Shell:
++ Rather than working with GUI in Compass, we use the Mongo Shell to add multiple posts into our posts collection at the same time so that we an have more data to work with without having to enter it all in manually: 
+
+So to get started with that you can go to your terminal and if you've been following along with the
 
       db.posts.insert([
       	{
