@@ -14,6 +14,7 @@ Reference: <a href="https://www.udemy.com/course/introduction-to-mongodb/?utm_so
    1. [Starting a MongoDB server and shelll](#9)
    2. [Creating a database/collection](#10)
    3. [Inserting documents (adding data to the collections)](#11)
+   4. [Intro to queries using find](#12) 
 
 <a name="1"></a>
 ## Introduction
@@ -152,16 +153,21 @@ returns back
         acknowledged: true,
         insertedIds: { '0': ObjectId("650db967e0557b6b3a8824a1") }
       }
-      test> db.users.find()
-      [ { _id: ObjectId("650db967e0557b6b3a8824a1"), name: 'James' } ]
+      
+      
       test> db.users.insert({'name': 'Julia', 'age': 24})
       {
         acknowledged: true,
         insertedIds: { '0': ObjectId("650db98de0557b6b3a8824a2") }
       }
-      test> db.users.find()
-      [
-        { _id: ObjectId("650db967e0557b6b3a8824a1"), name: 'James' },
-        { _id: ObjectId("650db98de0557b6b3a8824a2"), name: 'Julia', age: 24 }
-      ]
+     
 
+<a name="12"></a>
+### Intro to queries using find
+
+ test> db.users.find()
+      [
+         { _id: ObjectId("650db967e0557b6b3a8824a1"), name: 'James' },
+         { _id: ObjectId("650db98de0557b6b3a8824a2"), name: 'Julia', age: 24 }
+      ]
+Now you might notice that there is this additional key value pair over here called underscore I.D. and then we have this object I.D. and then a string of characters here.
