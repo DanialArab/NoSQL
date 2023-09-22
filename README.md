@@ -355,4 +355,71 @@ My test database and users collection in MongoDB Compass:
 
 + Compass allows us to perform CRUD using the GUI.
 + So if we hover over a document and then over to the right hand side and click on **clone document** that will open up the user record and we can just change the values rather than having to type out each key over again we can just change the values to represent our new user.
++ Rather than working with GUI in Compass, we add the posts using the Mongo Shell:
 
+      db.posts.insert([
+      	{
+      		"body": "I’ve been trying out Overnight Oats for breakfast every morning this week. Super easy to make and a great way to start the day!", 
+      		"topic": "cooking",
+      		"likes": 23,
+      		"dislikes": 12,
+      		"user_id": 4
+      	},
+      	{
+      		"body": "I went to Hawaii last month and had the best Acai bowl I’ve ever had! Trying to find some good recipes to make my own but haven’t found anything good so far. Anyone have any good recommendations?",
+      		"topic": "cooking",
+      		"likes": 13,
+      		"dislikes": 31,
+      		"user_id": 4
+      	},
+      	{
+      		"body": "I’ve been having greek yogurt every morning for breakfast lately - great way to get a good source of protein if you’re looking for good vegetarian-friendly options.",
+      		"topic": "cooking",
+      		"likes": 21,
+      		"dislikes": 26,
+      		"user_id": 1
+      	},
+      	{
+      		"body": "I’ve been running four days per week for the last three weeks. Definitely a struggle, but last week I ran an hour for each workout while previously I was running 45 minutes per workout. Making progress!",
+      		"topic": "fitness",
+      		"likes": 57,
+      		"dislikes": 33,
+      		"user_id": 2
+      	},
+      	{
+      		"body": "I started taking this yoga class about two months ago. It’s done wonders for my posture and also has helped strengthen my core a great deal. Definitely recommend it.",
+      		"topic": "fitness",
+      		"likes": 42,
+      		"dislikes": 11,
+      		"user_id": 3
+      	},
+      	{
+      		"body": "I was doing squats at the gym yesterday and I think I may have pulled a hamstring. After I take some time to rest, I’ll need to focus on my form and make sure to not to add more weight than I’m comfortable with.",
+      		"topic": "fitness",
+      		"likes": 28,
+      		"dislikes": 37,
+      		"user_id": 3
+      	},
+      	{
+      		"body": "Just went surfing in Half Moon Bay. The waves have been pretty awesome all week but be careful. Definitely not for beginners and it’s really cold out there - don’t forget to bring a wetsuit!",
+      		"topic": "sports",
+      		"likes": 41,
+      		"dislikes": 17,
+      		"user_id": 5
+      	},
+      	{
+      		"body": "I just tried out the clip-in bike pedals on my road bike. They’re awesome! I’m already noticing that my performance increasing compared to my other rides this week. Definitely recommend them if you’re a cyclist and haven’t tried it!",
+      		"topic": "sports",
+      		"likes": 38,
+      		"dislikes": 33,
+      		"user_id": 5
+      	},
+      	{
+      		"body": "I was playing basketball today after work and I made a half-court shot for the first time! Definitely a lot of luck involved, but still a big win!",
+      		"topic": "sports",
+      		"likes": 26,
+      		"dislikes": 19,
+      		"user_id": 2
+      	}
+      
+      ])
