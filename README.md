@@ -321,6 +321,8 @@ It's more human readable and also an integer as a data type. Here for this uniqu
 
 A one-to-one relationship is where each document relates to exactly one other document. And this could be either in the same collection or in a separate collection a one to many relationship is where one document can relate to many other documents but each of those documents can only relate to the original document. And a Many to Many relationship is where each document can relate to many other documents. But each of those can also relate to many other documents.
 
+![](https://github.com/DanialArab/images/blob/main/NoSQL/one%20to%20one.PNG)
+
 
 
 
