@@ -5,4 +5,7 @@ In this small project, I first created a NoSQL database named **customers** whic
 
 ![](https://github.com/DanialArab/images/blob/main/NoSQL/NoSQL_data_in_compass.PNG)
 
-Then 
+Then I defined SQL schema, extract the data from MongoDB and insert them into the table named consistently as **information** in MySQL:
+
+
+![](https://github.com/DanialArab/images/blob/main/NoSQL/SQL_table.PNG)
