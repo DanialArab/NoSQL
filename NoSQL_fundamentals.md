@@ -442,3 +442,5 @@ When building or designing a database we need to ask: how can I structure it so 
 <a name="22"></a>
 ### Quantitative vs. categorical data
 
+![](https://github.com/DanialArab/images/blob/main/NoSQL/Quantitative%20vs.%20categorical%20data.PNG)
+
