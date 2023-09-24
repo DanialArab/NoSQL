@@ -24,6 +24,9 @@ Reference: <a href="https://www.udemy.com/course/introduction-to-mongodb/?utm_so
 4. [Database design - practical](#20)
 5. [Data analysis - intuition](#21)
    1. [Quantitative vs. categorical data](#22)
+   2. [Analysis techniques](#23)
+      1. [Projection](#24)
+      2. [Exploration](#25)
 
 
 
@@ -443,4 +446,17 @@ When building or designing a database we need to ask: how can I structure it so 
 ### Quantitative vs. categorical data
 
 ![](https://github.com/DanialArab/images/blob/main/NoSQL/Quantitative%20vs.%20categorical%20data.PNG)
+
+<a name="23"></a>
+### Analysis techniques
+
+<a name="24"></a>
+#### Projection
+
+We will be using this to only return the fields in the document that we specifically want to work with and our analysis. And for us the main purpose is mainly for readability to make it easier for us to work with data by only focusing on the fields that are important to us. So if we project those fields we can remove the fields that we don't want to work with and only display the fields that we're interested in using projection and the _id Key will always be present in our documents because it is the primary key it's the unique identifier for each individual document. In projection, we don't actually remove any fields from documents in terms of how they're stored. It's not like we actually lost data. It's just returning specific fields in our query that we want to work with.
+
+<a name="25"></a>
+#### Exploration
+
+Our goal in this phase will be to learn about how our documents are distributed with respect to each of the attributes that we are focusing on. And we're going to have different approaches for doing this for categorical data versus quantitative data.
 
