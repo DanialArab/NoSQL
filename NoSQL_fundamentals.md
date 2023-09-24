@@ -23,6 +23,7 @@ Reference: <a href="https://www.udemy.com/course/introduction-to-mongodb/?utm_so
    4. [Embeded documents vs. separate collections](#19)
 4. [Database design - practical](#20)
 5. [Data analysis - intuition](#21)
+   1. [Quantitative vs. categorical data](#22)
 
 
 
@@ -437,4 +438,7 @@ When building or designing a database we need to ask: how can I structure it so 
 
 <a name="21"></a>
 ## Data analysis - intuition
+
+<a name="22"></a>
+### Quantitative vs. categorical data
 
