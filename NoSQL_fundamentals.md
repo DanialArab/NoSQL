@@ -27,6 +27,7 @@ Reference: <a href="https://www.udemy.com/course/introduction-to-mongodb/?utm_so
    2. [Analysis techniques](#23)
       1. [Projection](#24)
       2. [Exploration](#25)
+   3. [Using the Midpoint for Quantitative Data Exploration](#26)
 
 
 
@@ -460,3 +461,7 @@ We will be using this to only return the fields in the document that we specific
 
 Our goal in this phase will be to learn about how our documents are distributed with respect to each of the attributes that we are focusing on. And we're going to have different approaches for doing this for categorical data versus quantitative data.
 
+<a name="26"></a>
+### Using the Midpoint for Quantitative Data Exploration
+
+![](https://github.com/DanialArab/images/blob/main/NoSQL/Exploration.PNG)
