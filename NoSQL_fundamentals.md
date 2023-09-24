@@ -28,6 +28,7 @@ Reference: <a href="https://www.udemy.com/course/introduction-to-mongodb/?utm_so
       1. [Projection](#24)
       2. [Exploration](#25)
    3. [Using the Midpoint for Quantitative Data Exploration](#26)
+   4. [Extracting Insights: Exploration](#27)
 
 
 
@@ -465,3 +466,7 @@ Our goal in this phase will be to learn about how our documents are distributed 
 ### Using the Midpoint for Quantitative Data Exploration
 
 ![](https://github.com/DanialArab/images/blob/main/NoSQL/Exploration.PNG)
+
+<a name="27"></a>
+### Extracting Insights: Exploration
+
