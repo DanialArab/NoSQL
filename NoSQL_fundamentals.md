@@ -1618,7 +1618,15 @@ also:
 <a name="32"></a>
 ### Identifying correlations in data
 
+In the MongoDB Compass:
 
+![](https://github.com/DanialArab/images/blob/main/NoSQL/double_filtered.PNG)
+
+In the MongoDB Shell:
+
+      blog_analysis> db.posts.find({$and: [{date_created: {$lt: new Date ('2018-07-01')}}, {likes: {$gte: 251}}]}).count()
+      234
+      blog_analysis>
 
 
 
