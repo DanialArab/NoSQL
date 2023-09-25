@@ -1717,5 +1717,12 @@ The following query returns me back all the posts of having either the topic of 
 
 If we want to write a query to get the users who made a single post that meets both of these criteria ----> **$elemMatch**:
 
+using the MongoDB Compass:
 
+![](https://github.com/DanialArab/images/blob/main/NoSQL/elemMatch.PNG)
+
+and using the MongoDB Shell:
+
+      blog_analysis> db.users_embedded.find({'posts': {$elemMatch: {'topic':'gaming', 'likes': {$gte: 475}}}}).count()
+      16
 
