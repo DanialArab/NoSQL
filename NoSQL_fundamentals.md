@@ -1719,7 +1719,7 @@ The following query returns me back all the posts of having either the topic of 
 <a name="36"></a>
 ### elemMatch 
 
-If we want to add **several conditions** for the posts that we're querying to determine which we users to return back: if we want **all of those conditions to be met on the same embedded post document**  we can use this elemMatch query operator. On the other hand, if we want to return users who have a post with one or more of these conditions met, we can use the dot syntax and the format that we were working previously. 
+If we want to add **several conditions** for the posts that we're querying to determine which we users to return back: if we want **all of those conditions to be met on the same embedded post document**  we can use  **elemMatch query operator**. On the other hand, if we want to return users who have a post with one or more of these conditions met, we can use the dot syntax and the format that we were working on previously. 
 
 using the MongoDB Compass:
 
