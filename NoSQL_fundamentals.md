@@ -1135,6 +1135,11 @@ also
 <a name="28"></a>
 ### Exploring the data
 
+To sort in the MongoDB Compass:
+
+![](https://github.com/DanialArab/images/blob/main/NoSQL/sort.PNG)
+
+to get the same sorting but using the Mongo Shell:
 
       blog_analysis> db.posts.find().sort({likes: -1})
       [
