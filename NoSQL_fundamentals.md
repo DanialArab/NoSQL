@@ -1643,3 +1643,14 @@ in the MongoDB Shell:
 
       blog_analysis> db.posts.find({$or: [{topic: 'sports'}, {topic: 'politics'}, {topic: 'gaming'}]}).count()
       586
+
+to achieve the same results using **$in**:
+
+in the MongoDB Compass:
+
+![](https://github.com/DanialArab/images/blob/main/NoSQL/in.PNG)
+
+in the MongoDB Shell:
+
+      blog_analysis> db.posts.find({topic: {$in: ['sports', 'politics', 'gaming']}}).count()
+      586
