@@ -1596,7 +1596,11 @@ In the MongoDB Shell:
       blog_analysis> db.posts.find({topic: 'sports'}).count()
       188
 
+to get all the topics:
 
+      blog_analysis> db.posts.distinct('topic')
+      [ 'gaming', 'health', 'music', 'politics', 'sports' ]
+      blog_analysis>
 
 
 
