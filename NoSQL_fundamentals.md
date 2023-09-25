@@ -1634,3 +1634,12 @@ In the MongoDB Shell:
 
 <a name="33"></a>
 #### $or and $in
+
+In MongoDB Compass:
+
+![](https://github.com/DanialArab/images/blob/main/NoSQL/or.PNG)
+
+in the MongoDB Shell:
+
+      blog_analysis> db.posts.find({$or: [{topic: 'sports'}, {topic: 'politics'}, {topic: 'gaming'}]}).count()
+      586
