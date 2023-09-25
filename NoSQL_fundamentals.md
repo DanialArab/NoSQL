@@ -33,6 +33,7 @@ Reference: <a href="https://www.udemy.com/course/introduction-to-mongodb/?utm_so
       1. [Sorting](#29)
       2. [Projection](#30)
       3. [Filter](#31)
+   2. [Identifying correlations in data](#32)
 
 
 
@@ -1614,7 +1615,8 @@ also:
       211
 
 
-
+<a name="32"></a>
+### Identifying correlations in data
 
 
 
