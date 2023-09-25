@@ -32,6 +32,7 @@ Reference: <a href="https://www.udemy.com/course/introduction-to-mongodb/?utm_so
    1. [Exploring the data](#28)
       1. [Sorting](#29)
       2. [Projection](#30)
+      3. [Filter](#31)
 
 
 
@@ -1329,4 +1330,268 @@ or
       ]
       Type "it" for more
       blog_analysis>
+
+<a name="31"></a>
+#### Filter
+
+How to get the posts with the number of likes graeter than the midpoints (min of likes is 1 and the max of likes is 500 so the midpoint is 251), in the MongoDB Compass:
+
+![](https://github.com/DanialArab/images/blob/main/NoSQL/filter.PNG)
+
+to do the same but using the MongoDB Shell:
+
+      blog_analysis> db.posts.aggregate([
+      ...   {
+      ...     $match: {
+      ...       likes: { $gte: 251 }
+      ...     }
+      ...   },
+      ...   {
+      ...     $sort: {
+      ...       likes: -1
+      ...     }
+      ...   }
+      ... ])
+      [
+        {
+          _id: ObjectId("5c9fee8966d8c1392df11009"),
+          post_id: 349,
+          user_id: 72,
+          body: 'Lorem ipsum dolor sit amet',
+          topic: 'music',
+          likes: 500,
+          dislikes: 300,
+          views: 808,
+          date_created: ISODate("2018-07-12T12:08:12.000Z")
+        },
+        {
+          _id: ObjectId("5c9fee8a66d8c1392df1110f"),
+          post_id: 611,
+          user_id: 95,
+          body: 'Aliquam eget suscipit odio',
+          topic: 'gaming',
+          likes: 500,
+          dislikes: 42,
+          views: 588,
+          date_created: ISODate("2018-05-29T05:08:50.000Z")
+        },
+        {
+          _id: ObjectId("5c9fee8a66d8c1392df111e4"),
+          post_id: 824,
+          user_id: 6,
+          body: 'consectetur adipiscing elit',
+          topic: 'politics',
+          likes: 500,
+          dislikes: 95,
+          views: 711,
+          date_created: ISODate("2018-02-01T02:28:58.000Z")
+        },
+        {
+          _id: ObjectId("5c9fee8a66d8c1392df1120b"),
+          post_id: 863,
+          user_id: 118,
+          body: 'ut elementum urna malesuada',
+          topic: 'health',
+          likes: 500,
+          dislikes: 70,
+          views: 665,
+          date_created: ISODate("2018-11-17T01:40:10.000Z")
+        },
+        {
+          _id: ObjectId("5c9fee8966d8c1392df10ee4"),
+          post_id: 56,
+          user_id: 102,
+          body: 'consectetur adipiscing elit',
+          topic: 'politics',
+          likes: 499,
+          dislikes: 370,
+          views: 983,
+          date_created: ISODate("2018-09-29T10:18:13.000Z")
+        },
+        {
+          _id: ObjectId("5c9fee8966d8c1392df10f8a"),
+          post_id: 222,
+          user_id: 6,
+          body: 'Quisque semper justo libero',
+          topic: 'sports',
+          likes: 499,
+          dislikes: 8,
+          views: 582,
+          date_created: ISODate("2018-11-06T11:42:50.000Z")
+        },
+        {
+          _id: ObjectId("5c9fee8a66d8c1392df111a5"),
+          post_id: 761,
+          user_id: 58,
+          body: 'Proin ornare augue ex, a interdum nulla porttitor quis',
+          topic: 'sports',
+          likes: 499,
+          dislikes: 435,
+          views: 1102,
+          date_created: ISODate("2018-08-06T02:02:41.000Z")
+        },
+        {
+          _id: ObjectId("5c9fee8a66d8c1392df111ad"),
+          post_id: 769,
+          user_id: 64,
+          body: 'Nullam nunc dolor',
+          topic: 'sports',
+          likes: 499,
+          dislikes: 210,
+          views: 939,
+          date_created: ISODate("2018-05-30T23:24:04.000Z")
+        },
+        {
+          _id: ObjectId("5c9fee8966d8c1392df10f0c"),
+          post_id: 96,
+          user_id: 168,
+          body: 'Nullam nunc dolor',
+          topic: 'health',
+          likes: 498,
+          dislikes: 316,
+          views: 1061,
+          date_created: ISODate("2018-11-11T08:04:17.000Z")
+        },
+        {
+          _id: ObjectId("5c9fee8a66d8c1392df11133"),
+          post_id: 647,
+          user_id: 114,
+          body: 'Nullam a viverra magna',
+          topic: 'sports',
+          likes: 497,
+          dislikes: 428,
+          views: 1081,
+          date_created: ISODate("2018-04-06T22:28:59.000Z")
+        },
+        {
+          _id: ObjectId("5c9fee8966d8c1392df10fa6"),
+          post_id: 250,
+          user_id: 148,
+          body: 'Nullam dictum dapibus magna quis elementum',
+          topic: 'health',
+          likes: 496,
+          dislikes: 273,
+          views: 909,
+          date_created: ISODate("2018-11-29T14:04:15.000Z")
+        },
+        {
+          _id: ObjectId("5c9fee8a66d8c1392df11273"),
+          post_id: 967,
+          user_id: 105,
+          body: 'ut elementum urna malesuada',
+          topic: 'politics',
+          likes: 496,
+          dislikes: 181,
+          views: 750,
+          date_created: ISODate("2018-09-18T20:39:50.000Z")
+        },
+        {
+          _id: ObjectId("5c9fee8966d8c1392df10ebf"),
+          post_id: 19,
+          user_id: 167,
+          body: 'Nullam a viverra magna',
+          topic: 'gaming',
+          likes: 495,
+          dislikes: 188,
+          views: 819,
+          date_created: ISODate("2018-10-19T16:39:50.000Z")
+        },
+        {
+          _id: ObjectId("5c9fee8a66d8c1392df11217"),
+          post_id: 875,
+          user_id: 166,
+          body: 'Nullam a viverra magna',
+          topic: 'politics',
+          likes: 495,
+          dislikes: 446,
+          views: 1160,
+          date_created: ISODate("2018-05-02T13:25:42.000Z")
+        },
+        {
+          _id: ObjectId("5c9fee8966d8c1392df10fe6"),
+          post_id: 314,
+          user_id: 51,
+          body: 'Suspendisse finibus erat nec ipsum commodo',
+          topic: 'health',
+          likes: 494,
+          dislikes: 113,
+          views: 701,
+          date_created: ISODate("2018-10-02T09:57:21.000Z")
+        },
+        {
+          _id: ObjectId("5c9fee8a66d8c1392df11051"),
+          post_id: 421,
+          user_id: 195,
+          body: 'Quisque semper justo libero',
+          topic: 'gaming',
+          likes: 494,
+          dislikes: 108,
+          views: 721,
+          date_created: ISODate("2018-05-07T10:28:15.000Z")
+        },
+        {
+          _id: ObjectId("5c9fee8a66d8c1392df1105f"),
+          post_id: 435,
+          user_id: 17,
+          body: 'consectetur adipiscing elit',
+          topic: 'sports',
+          likes: 494,
+          dislikes: 146,
+          views: 830,
+          date_created: ISODate("2018-02-26T10:58:11.000Z")
+        },
+        {
+          _id: ObjectId("5c9fee8966d8c1392df10f76"),
+          post_id: 202,
+          user_id: 99,
+          body: 'Nullam nunc dolor',
+          topic: 'sports',
+          likes: 493,
+          dislikes: 228,
+          views: 868,
+          date_created: ISODate("2018-05-04T16:41:05.000Z")
+        },
+        {
+          _id: ObjectId("5c9fee8966d8c1392df10f3d"),
+          post_id: 145,
+          user_id: 109,
+          body: 'Aliquam eget suscipit odio',
+          topic: 'gaming',
+          likes: 492,
+          dislikes: 393,
+          views: 1098,
+          date_created: ISODate("2018-11-16T21:44:14.000Z")
+        },
+        {
+          _id: ObjectId("5c9fee8a66d8c1392df111c1"),
+          post_id: 789,
+          user_id: 31,
+          body: 'Quisque semper justo libero',
+          topic: 'sports',
+          likes: 492,
+          dislikes: 492,
+          views: 1054,
+          date_created: ISODate("2018-09-26T13:45:14.000Z")
+        }
+      ]
+      Type "it" for more
+      blog_analysis>
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
