@@ -1667,3 +1667,6 @@ in the MongoDB Shell:
 
 <a name="34"></a>
 ## Data analysis - a blog case study with embedded documents
+
+![](https://github.com/DanialArab/images/blob/main/NoSQL/embedded_doc.PNG)
+
