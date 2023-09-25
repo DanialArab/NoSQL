@@ -1705,3 +1705,9 @@ and in the MongoDB Shell:
       blog_analysis> db.users_embedded.find({'posts.topic' : 'gaming', 'posts.likes' :{$gte: 20}}).count()
       161
 
+the above query is actually the shorthand syntax for the **and query operator**, like:
+
+
+      blog_analysis> db.users_embedded.find({$and: [{'posts.topic': 'gaming'}, {'posts.likes': {$gte: 20}}]}).count()
+      161
+
