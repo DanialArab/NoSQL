@@ -35,8 +35,7 @@ Reference: <a href="https://www.udemy.com/course/introduction-to-mongodb/?utm_so
       3. [Filter](#31)
    2. [Identifying correlations in data](#32)
       1. [$or and $in](#33) 
-
-
+5. [Data analysis - a blog case study with embedded documents](#34) 
 
 <a name="1"></a>
 ## Introduction
@@ -1665,3 +1664,6 @@ in the MongoDB Shell:
 
       blog_analysis> db.posts.find({$and: [{topic: {$in: ['sports', 'gaming', 'politics']}}, {likes: {$gte: 251}}]}).count()
       306
+
+<a name="34"></a>
+## Data analysis - a blog case study with embedded documents
