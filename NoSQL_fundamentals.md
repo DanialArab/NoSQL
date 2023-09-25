@@ -29,7 +29,9 @@ Reference: <a href="https://www.udemy.com/course/introduction-to-mongodb/?utm_so
       2. [Exploration](#25)
    3. [Using the Midpoint for Quantitative Data Exploration](#26)
 4. [Data analysis practical- blog case study](#27)
-   1. [Exploring the data](#28) 
+   1. [Exploring the data](#28)
+      1. [Sorting](#29)
+      2. [Projection](#30)
 
 
 
