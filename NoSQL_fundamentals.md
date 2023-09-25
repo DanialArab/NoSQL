@@ -1654,3 +1654,14 @@ in the MongoDB Shell:
 
       blog_analysis> db.posts.find({topic: {$in: ['sports', 'politics', 'gaming']}}).count()
       586
+
+or as another example:
+
+in the MongoDB Compass:
+
+![](https://github.com/DanialArab/images/blob/main/NoSQL/correlations.PNG)
+
+in the MongoDB Shell:
+
+      blog_analysis> db.posts.find({$and: [{topic: {$in: ['sports', 'gaming', 'politics']}}, {likes: {$gte: 251}}]}).count()
+      306
