@@ -35,7 +35,8 @@ Reference: <a href="https://www.udemy.com/course/introduction-to-mongodb/?utm_so
       3. [Filter](#31)
    2. [Identifying correlations in data](#32)
       1. [$or and $in](#33) 
-5. [Data analysis - a blog case study with embedded documents](#34) 
+5. [Data analysis - a blog case study with embedded documents](#34)
+   1. [Querring using dot notation](#35)
 
 <a name="1"></a>
 ## Introduction
@@ -1670,7 +1671,12 @@ in the MongoDB Shell:
 
 ![](https://github.com/DanialArab/images/blob/main/NoSQL/embedded_doc.PNG)
 
-How to query for where the first post that a user made has a topic of gaming using the dot notation:
+<a name="35"></a>
+### Querring using dot notation
+
+How to query for where the first post that a user made has a topic of gaming using the dot notation?
+
+**Previously, we didn't need to enter quotes around our key when we were making queries. But when we are using this dot notation for querying arrays and embedded documents we actually do need to use quotes (e.g., 'posts.0.topic' in below).**
 
 In the MongoDB Compass:
 
