@@ -1135,6 +1135,8 @@ also
 <a name="28"></a>
 ### Exploring the data
 
+<a name="29"></a>
+#### Sorting 
 To sort in the MongoDB Compass:
 
 ![](https://github.com/DanialArab/images/blob/main/NoSQL/sort.PNG)
@@ -1180,3 +1182,40 @@ to get the same sorting but using the MongoDB Shell:
       Type "it" for more
       blog_analysis>
 
+<a name="30"></a>
+#### Projection 
+
+This will allow us to only return certain fields back for each document that we're querying. To do so in the MongoDB Compass
+
+![](https://github.com/DanialArab/images/blob/main/NoSQL/projection.PNG)
+
+The primary key **_id** is always included by default. 
+
+To get the same but using the MongoDB Shell:
+
+
+      blog_analysis> db.posts.find({}, {likes: 1})
+      [
+        { _id: ObjectId("5c9fee8966d8c1392df10ead"), likes: 168 },
+        { _id: ObjectId("5c9fee8966d8c1392df10eae"), likes: 334 },
+        { _id: ObjectId("5c9fee8966d8c1392df10eaf"), likes: 403 },
+        { _id: ObjectId("5c9fee8966d8c1392df10eb0"), likes: 488 },
+        { _id: ObjectId("5c9fee8966d8c1392df10eb1"), likes: 164 },
+        { _id: ObjectId("5c9fee8966d8c1392df10eb2"), likes: 119 },
+        { _id: ObjectId("5c9fee8966d8c1392df10eb3"), likes: 428 },
+        { _id: ObjectId("5c9fee8966d8c1392df10eb4"), likes: 20 },
+        { _id: ObjectId("5c9fee8966d8c1392df10eb5"), likes: 449 },
+        { _id: ObjectId("5c9fee8966d8c1392df10eb6"), likes: 132 },
+        { _id: ObjectId("5c9fee8966d8c1392df10eb7"), likes: 238 },
+        { _id: ObjectId("5c9fee8966d8c1392df10eb8"), likes: 167 },
+        { _id: ObjectId("5c9fee8966d8c1392df10eb9"), likes: 65 },
+        { _id: ObjectId("5c9fee8966d8c1392df10eba"), likes: 79 },
+        { _id: ObjectId("5c9fee8966d8c1392df10ebb"), likes: 344 },
+        { _id: ObjectId("5c9fee8966d8c1392df10ebc"), likes: 323 },
+        { _id: ObjectId("5c9fee8966d8c1392df10ebd"), likes: 98 },
+        { _id: ObjectId("5c9fee8966d8c1392df10ebe"), likes: 427 },
+        { _id: ObjectId("5c9fee8966d8c1392df10ebf"), likes: 495 },
+        { _id: ObjectId("5c9fee8966d8c1392df10ec0"), likes: 220 }
+      ]
+      Type "it" for more
+      blog_analysis>
