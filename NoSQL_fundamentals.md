@@ -1618,6 +1618,8 @@ also:
 <a name="32"></a>
 ### Identifying correlations in data
 
+Multiple conditions at the same time:
+
 In the MongoDB Compass:
 
 ![](https://github.com/DanialArab/images/blob/main/NoSQL/double_filtered.PNG)
