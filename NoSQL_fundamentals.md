@@ -1221,3 +1221,112 @@ To get the same but using the MongoDB Shell:
       ]
       Type "it" for more
       blog_analysis>
+
+or
+
+      blog_analysis> db.posts.find({}, {likes: 1, dislikes: 1})
+      [
+        {
+          _id: ObjectId("5c9fee8966d8c1392df10ead"),
+          likes: 168,
+          dislikes: 341
+        },
+        {
+          _id: ObjectId("5c9fee8966d8c1392df10eae"),
+          likes: 334,
+          dislikes: 47
+        },
+        {
+          _id: ObjectId("5c9fee8966d8c1392df10eaf"),
+          likes: 403,
+          dislikes: 293
+        },
+        {
+          _id: ObjectId("5c9fee8966d8c1392df10eb0"),
+          likes: 488,
+          dislikes: 60
+        },
+        {
+          _id: ObjectId("5c9fee8966d8c1392df10eb1"),
+          likes: 164,
+          dislikes: 161
+        },
+        {
+          _id: ObjectId("5c9fee8966d8c1392df10eb2"),
+          likes: 119,
+          dislikes: 487
+        },
+        {
+          _id: ObjectId("5c9fee8966d8c1392df10eb3"),
+          likes: 428,
+          dislikes: 130
+      blog_analysis>
+        {
+          _id: ObjectId("5c9fee8966d8c1392df10eb4"),
+          likes: 20,
+          dislikes: 431
+        },
+        {
+          _id: ObjectId("5c9fee8966d8c1392df10eb5"),
+          likes: 449,
+          dislikes: 78
+        },
+        {
+          _id: ObjectId("5c9fee8966d8c1392df10eb6"),
+          likes: 132,
+          dislikes: 272
+        },
+        {
+          _id: ObjectId("5c9fee8966d8c1392df10eb7"),
+          likes: 238,
+          dislikes: 229
+        },
+        {
+          _id: ObjectId("5c9fee8966d8c1392df10eb8"),
+          likes: 167,
+          dislikes: 75
+        },
+        {
+          _id: ObjectId("5c9fee8966d8c1392df10eb9"),
+          likes: 65,
+          dislikes: 153
+        },
+        {
+          _id: ObjectId("5c9fee8966d8c1392df10eba"),
+          likes: 79,
+          dislikes: 383
+        },
+        {
+          _id: ObjectId("5c9fee8966d8c1392df10ebb"),
+          likes: 344,
+          dislikes: 175
+        },
+        {
+          _id: ObjectId("5c9fee8966d8c1392df10ebc"),
+          likes: 323,
+          dislikes: 379
+        },
+        {
+          _id: ObjectId("5c9fee8966d8c1392df10ebd"),
+          likes: 98,
+          dislikes: 446
+        },
+        {
+          _id: ObjectId("5c9fee8966d8c1392df10ebe"),
+          likes: 427,
+          dislikes: 78
+        },
+        {
+          _id: ObjectId("5c9fee8966d8c1392df10ebf"),
+          likes: 495,
+          dislikes: 188
+        },
+        {
+          _id: ObjectId("5c9fee8966d8c1392df10ec0"),
+          likes: 220,
+          dislikes: 211
+        }
+      ]
+      Type "it" for more
+      blog_analysis>
+
