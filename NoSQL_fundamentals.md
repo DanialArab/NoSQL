@@ -1139,7 +1139,7 @@ To sort in the MongoDB Compass:
 
 ![](https://github.com/DanialArab/images/blob/main/NoSQL/sort.PNG)
 
-to get the same sorting but using the Mongo Shell:
+to get the same sorting but using the MongoDB Shell:
 
       blog_analysis> db.posts.find().sort({likes: -1})
       [
