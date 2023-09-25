@@ -37,6 +37,7 @@ Reference: <a href="https://www.udemy.com/course/introduction-to-mongodb/?utm_so
       1. [$or and $in](#33) 
 5. [Data analysis - a blog case study with embedded documents](#34)
    1. [Querring using dot notation](#35)
+   2. [elemMatch](#36)
 
 <a name="1"></a>
 ## Introduction
@@ -1714,6 +1715,9 @@ the above query is actually the shorthand syntax for the **and query operator**,
 The following query returns me back all the posts of having either the topic of gaming or having the number of likes of more than 450:
 
 ![](https://github.com/DanialArab/images/blob/main/NoSQL/query%202.PNG)
+
+<a name="36"></a>
+### elemMatch 
 
 If we want to write a query to get the users who made a single post that meets both of these criteria ----> **$elemMatch**:
 
