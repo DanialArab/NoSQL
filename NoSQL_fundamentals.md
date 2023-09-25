@@ -1585,8 +1585,10 @@ in the MongoDB Compass is:
 
 ![](https://github.com/DanialArab/images/blob/main/NoSQL/filter_date.PNG)
 
+To get the distribution of data with respect to the topics that we have in the dataset:
 
-
+      blog_analysis> db.posts.find({topic: 'sports'}).count()
+      188
 
 
 
