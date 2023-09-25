@@ -1602,8 +1602,16 @@ to get all the topics:
       [ 'gaming', 'health', 'music', 'politics', 'sports' ]
       blog_analysis>
 
+also:
 
-
+      blog_analysis> db.posts.find({topic: 'gaming'}).count()
+      187
+      blog_analysis> db.posts.find({topic: 'music'}).count()
+      196
+      blog_analysis> db.posts.find({topic: 'health'}).count()
+      218
+      blog_analysis> db.posts.find({topic: 'politics'}).count()
+      211
 
 
 
