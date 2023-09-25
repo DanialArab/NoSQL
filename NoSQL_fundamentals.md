@@ -1696,3 +1696,12 @@ and in the MongoDB Shell:
       38
       blog_analysis>
 
+as an another example, in the MongoDB Compass:
+
+![](https://github.com/DanialArab/images/blob/main/NoSQL/query.PNG)
+
+and in the MongoDB Shell:
+
+      blog_analysis> db.users_embedded.find({'posts.topic' : 'gaming', 'posts.likes' :{$gte: 20}}).count()
+      161
+
