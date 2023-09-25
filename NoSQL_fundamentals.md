@@ -1587,6 +1587,12 @@ in the MongoDB Compass is:
 
 To get the distribution of data with respect to the topics that we have in the dataset:
 
+In the MongoDB Compass:
+
+![](https://github.com/DanialArab/images/blob/main/NoSQL/filter_by_topic.PNG)
+
+In the MongoDB Shell:
+
       blog_analysis> db.posts.find({topic: 'sports'}).count()
       188
 
