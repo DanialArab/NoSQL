@@ -29,6 +29,7 @@ Reference: <a href="https://www.udemy.com/course/introduction-to-mongodb/?utm_so
       2. [Exploration](#25)
    3. [Using the Midpoint for Quantitative Data Exploration](#26)
 4. [Data analysis practical- blog case study](#27)
+   1. [Exploring the data](#28) 
 
 
 
@@ -1131,3 +1132,45 @@ also
       }
       blog_analysis>
 
+<a name="28"></a>
+##* Exploring the data
+
+
+      blog_analysis> db.posts.find().sort({likes: -1})
+      [
+        {
+          _id: ObjectId("5c9fee8966d8c1392df11009"),
+          post_id: 349,
+          user_id: 72,
+          body: 'Lorem ipsum dolor sit amet',
+          topic: 'music',
+          likes: 500,
+          dislikes: 300,
+          views: 808,
+          date_created: ISODate("2018-07-12T12:08:12.000Z")
+        },
+        {
+          _id: ObjectId("5c9fee8a66d8c1392df1110f"),
+          post_id: 611,
+          user_id: 95,
+          body: 'Aliquam eget suscipit odio',
+          topic: 'gaming',
+          likes: 500,
+          dislikes: 42,
+          views: 588,
+          date_created: ISODate("2018-05-29T05:08:50.000Z")
+        },
+        {
+          _id: ObjectId("5c9fee8a66d8c1392df111e4"),
+          post_id: 824,
+          user_id: 6,
+          body: 'consectetur adipiscing elit',
+          topic: 'politics',
+          likes: 500,
+          dislikes: 95,
+          views: 711,
+          date_created: ISODate("2018-02-01T02:28:58.000Z")
+        }
+        ]
+      Type "it" for more
+      blog_analysis>
