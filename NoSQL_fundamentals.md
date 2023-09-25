@@ -1133,7 +1133,7 @@ also
       blog_analysis>
 
 <a name="28"></a>
-##* Exploring the data
+### Exploring the data
 
 
       blog_analysis> db.posts.find().sort({likes: -1})
@@ -1174,3 +1174,4 @@ also
         ]
       Type "it" for more
       blog_analysis>
+
