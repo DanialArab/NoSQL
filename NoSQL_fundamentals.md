@@ -34,6 +34,7 @@ Reference: <a href="https://www.udemy.com/course/introduction-to-mongodb/?utm_so
       2. [Projection](#30)
       3. [Filter](#31)
    2. [Identifying correlations in data](#32)
+      1. [$or and $in](#33) 
 
 
 
@@ -1631,4 +1632,5 @@ In the MongoDB Shell:
       blog_analysis>
 
 
-
+<a name="33"></a>
+#### $or and $in
