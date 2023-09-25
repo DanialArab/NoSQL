@@ -1577,8 +1577,13 @@ to do the same but using the MongoDB Shell:
       Type "it" for more
       blog_analysis>
       
+For the Date object, the query is a bit different and it is like:
 
+      {date_created : {$gte : new Date ('2018-07-01')}}
 
+in the MongoDB Compass is:
+
+![](https://github.com/DanialArab/images/blob/main/NoSQL/filter_date.PNG)
 
 
 
