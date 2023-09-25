@@ -1711,3 +1711,11 @@ the above query is actually the shorthand syntax for the **and query operator**,
       blog_analysis> db.users_embedded.find({$and: [{'posts.topic': 'gaming'}, {'posts.likes': {$gte: 20}}]}).count()
       161
 
+The following query returns me back all the posts of having either the topic of gaming or having the number of likes of more than 450:
+
+![](https://github.com/DanialArab/images/blob/main/NoSQL/query%202.PNG)
+
+If we want to write a query to get the users who made a single post that meets both of these criteria ----> **$elemMatch**:
+
+
+
