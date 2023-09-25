@@ -1670,3 +1670,23 @@ in the MongoDB Shell:
 
 ![](https://github.com/DanialArab/images/blob/main/NoSQL/embedded_doc.PNG)
 
+How to query for where the first post that a user made has a topic of gaming using the dot notation:
+
+In the MongoDB Compass:
+
+![](https://github.com/DanialArab/images/blob/main/NoSQL/dot%20notation.PNG)
+
+and in the MongoDB Shell:
+
+      blog_analysis> show dbs
+      admin           40.00 KiB
+      blog           144.00 KiB
+      blog_analysis  248.00 KiB
+      config         108.00 KiB
+      customers       72.00 KiB
+      local           72.00 KiB
+      test            72.00 KiB
+      blog_analysis> db.users_embedded.find({'posts.0.topic' : 'gaming'}).count()
+      38
+      blog_analysis>
+
