@@ -38,6 +38,7 @@ Reference: <a href="https://www.udemy.com/course/introduction-to-mongodb/?utm_so
 5. [Data analysis - a blog case study with embedded documents](#34)
    1. [Querring using dot notation](#35)
    2. [elemMatch](#36)
+   3. [Exploring the dataset](#37) 
 
 <a name="1"></a>
 ## Introduction
@@ -1729,4 +1730,13 @@ and using the MongoDB Shell:
 
       blog_analysis> db.users_embedded.find({'posts': {$elemMatch: {'topic':'gaming', 'likes': {$gte: 475}}}}).count()
       16
+
+<a name="37"></a>
+### Exploring the dataset
+
+Here are the different steps in my analysis in MongoDB Compass: 
+
+1- Project only age, date_created, and posts fields:
+
+![](https://github.com/DanialArab/images/blob/main/NoSQL/data_analysis_1.PNG)
 
