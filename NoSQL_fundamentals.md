@@ -1752,4 +1752,13 @@ So midpoint for age = 21 + 45 / 2 = 33
 
 ![](https://github.com/DanialArab/images/blob/main/NoSQL/age_gte_midpoint.PNG)
 
+4- To do the same for the date_created field:
+
+![](https://github.com/DanialArab/images/blob/main/NoSQL/date_min.PNG)
+
+![](https://github.com/DanialArab/images/blob/main/NoSQL/date_max.PNG)
+
+![](https://github.com/DanialArab/images/blob/main/NoSQL/date_created_gte_midpoint.PNG)
+
+
 
