@@ -38,7 +38,8 @@ Reference: <a href="https://www.udemy.com/course/introduction-to-mongodb/?utm_so
 5. [Data analysis - a blog case study with embedded documents](#34)
    1. [Querring using dot notation](#35)
    2. [elemMatch](#36)
-   3. [Exploring the dataset](#37) 
+   3. [Exploring the dataset](#37)
+6. [Data analysis practical - ECommerce case study](#38)
 
 <a name="1"></a>
 ## Introduction
@@ -1760,5 +1761,7 @@ So midpoint for age = 21 + 45 / 2 = 33
 
 ![](https://github.com/DanialArab/images/blob/main/NoSQL/date_created_gte_midpoint.PNG)
 
+<a name="38"></a>
+## Data analysis practical - ECommerce case study
 
-
+here
