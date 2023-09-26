@@ -1740,3 +1740,10 @@ Here are the different steps in my analysis in MongoDB Compass:
 
 ![](https://github.com/DanialArab/images/blob/main/NoSQL/data_analysis_1.PNG)
 
+2- Calculate the midpoint values for each field, results for age are presented below:
+
+![](https://github.com/DanialArab/images/blob/main/NoSQL/age_min.PNG)
+
+![](https://github.com/DanialArab/images/blob/main/NoSQL/age_max.PNG)
+
+
