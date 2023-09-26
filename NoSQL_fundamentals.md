@@ -1,7 +1,5 @@
 # NoSQL
 
-Reference: <a href="https://www.udemy.com/course/introduction-to-mongodb/?utm_source=adwords-learn&utm_medium=udemyads&utm_campaign=DSA_CA_Tech&utm_content=deal4584&utm_term=_._ag_76808851565_._ad_533102607579_._de_c_._dm__._pl__._ti_dsa-796176360685_._li_9001497_._pd__._&gclid=Cj0KCQjw06-oBhC6ARIsAGuzdw0YatK9S42zHe7Ml6tPW_MBmrBcWXUeE-W43oxmwKPiGX_L3Qq5EJ8aApJPEALw_wcB">Introduction to MongoDB for Data Analytics  </a>
-
 1. [Introduction](#1)
    1. [SQL vs. NoSQL](#2)
       1. [Schema](#3)
@@ -40,6 +38,7 @@ Reference: <a href="https://www.udemy.com/course/introduction-to-mongodb/?utm_so
    2. [elemMatch](#36)
    3. [Exploring the dataset](#37)
 6. [Data analysis practical - ECommerce case study](#38)
+7. [References](#39)
 
 <a name="1"></a>
 ## Introduction
@@ -1785,5 +1784,6 @@ The steps of our analysis in the MongoDB Compass are as follows:
 based on some trials and errors we found the value of 6 (instead of the midpoint of 1201) for the quantity field, which gives us a reasonable distribution for the analysis. We do the same experimentation for the other fields. 
 
 
-
+<a name="39"></a>
+## Reference: <a href="https://www.udemy.com/course/introduction-to-mongodb/?utm_source=adwords-learn&utm_medium=udemyads&utm_campaign=DSA_CA_Tech&utm_content=deal4584&utm_term=_._ag_76808851565_._ad_533102607579_._de_c_._dm__._pl__._ti_dsa-796176360685_._li_9001497_._pd__._&gclid=Cj0KCQjw06-oBhC6ARIsAGuzdw0YatK9S42zHe7Ml6tPW_MBmrBcWXUeE-W43oxmwKPiGX_L3Qq5EJ8aApJPEALw_wcB">Introduction to MongoDB for Data Analytics  </a>
 
