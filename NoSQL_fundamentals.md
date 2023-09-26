@@ -1770,3 +1770,10 @@ the data imported in the MongoDB Compass:
 
 ![](https://github.com/DanialArab/images/blob/main/NoSQL/online_Retail.PNG)
 
+The steps of our analysis in the MongoDB Compass are as follows:
+
++ Projecting the desired field:
+
+![](https://github.com/DanialArab/images/blob/main/NoSQL/projecting%20fields%20of%20interest.PNG)
+
++ 
