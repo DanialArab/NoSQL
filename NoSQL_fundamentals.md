@@ -1776,8 +1776,10 @@ The steps of our analysis in the MongoDB Compass are as follows:
 
 ![](https://github.com/DanialArab/images/blob/main/NoSQL/projecting%20fields%20of%20interest.PNG)
 
-+ Is breaking up the purchase data based on the midpoint value a good strategy? of course not, because the distribution above and below the midpoint is very nonuniform:
++ Is breaking up the purchase data based on the midpoint value a good strategy? Of course not, because the distribution above (only 4 records) and below the midpoint (7496 records) is very nonuniform:
 
 ![](https://github.com/DanialArab/images/blob/main/NoSQL/quantity1.PNG)
 
 ![](https://github.com/DanialArab/images/blob/main/NoSQL/quantity2.PNG)
+
+
