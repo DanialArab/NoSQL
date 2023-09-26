@@ -1782,7 +1782,7 @@ The steps of our analysis in the MongoDB Compass are as follows:
 
 ![](https://github.com/DanialArab/images/blob/main/NoSQL/quantity2.PNG)
 
-based on some trials and errors we found the value of 6 (instead of the midpoint of 1201) for the quantity field gives us a reasonable distribution for the analysis. W do the same experimentation for the other fields. 
+based on some trials and errors we found the value of 6 (instead of the midpoint of 1201) for the quantity field, which gives us a reasonable distribution for the analysis. We do the same experimentation for the other fields. 
 
 
 
