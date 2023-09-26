@@ -1766,3 +1766,7 @@ So midpoint for age = 21 + 45 / 2 = 33
 
 data source: <a href="https://archive.ics.uci.edu/dataset/352/online+retail">Online Retail</a>
  
+the data imported in the MongoDB Compass:
+
+![](https://github.com/DanialArab/images/blob/main/NoSQL/online_Retail.PNG)
+
