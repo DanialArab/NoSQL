@@ -1764,5 +1764,5 @@ So midpoint for age = 21 + 45 / 2 = 33
 <a name="38"></a>
 ## Data analysis practical - ECommerce case study
 
-data source: <a href="https://archive.ics.uci.edu/dataset/352/online+retail">Introduction to MongoDB for Data Analytics  </a>
+data source: <a href="https://archive.ics.uci.edu/dataset/352/online+retail">Online Retail</a>
  
