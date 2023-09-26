@@ -1748,4 +1748,8 @@ Here are the different steps in my analysis in MongoDB Compass:
 
 So midpoint for age = 21 + 45 / 2 = 33
 
+3- To get the users of 33 years old or older:
+
+![](https://github.com/DanialArab/images/blob/main/NoSQL/age_gte_midpoint.PNG)
+
 
